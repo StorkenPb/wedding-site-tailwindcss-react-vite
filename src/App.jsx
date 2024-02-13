@@ -10,12 +10,17 @@ import FormGoogle from "./components/FormGoogle";
 import MapGoogle from "./components/MapGoogle";
 
 const App = () => {
-  const languages = ["se", "en"];
+  var languages =
+    navigator.languages[0] == ("en" || "en-us" || "en-US")
+      ? ["en", "se"]
+      : ["se", "en"];
+
   const [lang, setLanguage] = useState(languages[0]);
 
   const handleLanguageChange = (e) => {
     setLanguage(e.target.value);
   };
+
   return (
     <div>
       <Hero language={lang} />

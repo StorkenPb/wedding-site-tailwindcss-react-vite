@@ -19,14 +19,7 @@ const FormGoogle = (props) => {
   return (
     <div className="w-full py-16 text-center bg-gray-200">
       <h1 className="text-5xl font-bold mb-6">{content.h1}</h1>
-      <iframe
-        src={content.formUrl}
-        width="100%"
-        height="886"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-      >
+      <iframe src={content.formUrl} width="100%" height="886">
         Loading rsvp form…
       </iframe>
     </div>

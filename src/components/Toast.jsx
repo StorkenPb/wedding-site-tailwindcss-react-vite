@@ -16,7 +16,7 @@ const Toast = (props) => {
   return (
     <div className="w-full py-16 px-5 text-lg">
       <div className="max-w-[1080px] mx-auto flex flex-col text-center items-center gap-5">
-        <h className="text-5xl font-bold">{content.h1}</h>
+        <h1 className="text-5xl font-bold">{content.h1}</h1>
         <p className="text-2xl max-w-[390px]">{content.p}</p>
         <a
           href="mailto:julia.c.weingarten@gmail.com"
