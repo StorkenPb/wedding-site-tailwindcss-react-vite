@@ -19,7 +19,7 @@ const Hero = (props) => {
 
   return (
     <div
-      className="h-[80vh] bg-cover flex flex-col items-center justify-center text-center space-y-1 bg-gradient-to-t from-cyan-500 to-blue-500"
+      className="h-[80vh] bg-cover bg-center flex flex-col items-center justify-center text-center space-y-1 bg-gradient-to-t from-cyan-500 to-blue-500"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(${BgImage})`,
       }}

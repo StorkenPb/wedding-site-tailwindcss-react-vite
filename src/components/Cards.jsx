@@ -62,9 +62,9 @@ const Cards = (props) => {
             <h1 className="py-4 text-3xl font-bold">{card.h1}</h1>
             <p>{card.p1}</p>
             {card.p2 ? (
-              <div className="group">
+              <div className="group relative">
                 <p className="underline">{card.p2}</p>
-                <p className="group-hover:opacity-100 transition-opacity p-2 my-1 bg-primary text-sm text-gray-100 rounded-lg opacity-0">
+                <p className="group-hover:opacity-100 transition-opacity absolute top-8 p-2 max-w-[50ch] bg-primary text-sm text-gray-100 rounded-lg opacity-0">
                   {card.toolTip}
                 </p>
               </div>
