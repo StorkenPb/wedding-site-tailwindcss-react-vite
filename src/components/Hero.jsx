@@ -10,7 +10,7 @@ const Hero = (props) => {
     },
     en: {
       heading_1: "Sophia & Christoffer",
-      p1: "Ekerö kyrka",
+      p1: "Ekerö curch",
       p2: "September 14'th 2024",
     },
   };

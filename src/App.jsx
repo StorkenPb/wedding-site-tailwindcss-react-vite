@@ -8,6 +8,8 @@ import Cards from "./components/Cards";
 import Toast from "./components/Toast";
 import FormGoogle from "./components/FormGoogle";
 import MapGoogle from "./components/MapGoogle";
+import Faq from "./components/Faq";
+import RsvpButton from "./components/RsvpButton";
 
 const App = () => {
   var languages =
@@ -31,10 +33,13 @@ const App = () => {
       <Toast language={lang} />
       <FormGoogle language={lang} />
       <MapGoogle language={lang} />
+      {lang == "en" ? "" : <Faq language={lang} />}
       <LanguageSwitsher
+        language={lang}
         options={languages}
         handleChange={handleLanguageChange}
       />
+      <RsvpButton language={lang} />
     </div>
   );
 };

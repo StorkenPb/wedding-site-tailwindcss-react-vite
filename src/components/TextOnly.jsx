@@ -12,7 +12,7 @@ const TextOnly = (props) => {
       paragraph_3:
         "Dagen efter avslutas firandet och vi återställer oss med en brunch i restaurangen på Skytteholm. Brunchen börjar kl.10.00.",
       paragraph_4:
-        "Kl. 12.15 står Bromma buss redo att kör samtliga gäster tillbaka till Brommaplan.",
+        "Kl. 12.30 står Bromma buss redo att kör samtliga gäster tillbaka till Brommaplan.",
     },
     en: {
       heading_1: "Accommodation",
@@ -24,7 +24,7 @@ const TextOnly = (props) => {
       paragraph_3:
         "The following day, the celebration ends with a recovery brunch at the restaurant. The brunch starts at 10 am.",
       paragraph_4:
-        "At 12.15 pm Bromma will take all guests back to Brommaplan.",
+        "At 12.30 pm Bromma will take all guests back to Brommaplan.",
     },
   };
 
