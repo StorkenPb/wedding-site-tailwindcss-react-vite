@@ -10,6 +10,7 @@ import FormGoogle from "./components/FormGoogle";
 import MapGoogle from "./components/MapGoogle";
 import Faq from "./components/Faq";
 import RsvpButton from "./components/RsvpButton";
+import RsvpForm from "./components/RsvpForm";
 
 const App = () => {
   var languages =
@@ -22,7 +23,9 @@ const App = () => {
   const handleLanguageChange = (e) => {
     setLanguage(e.target.value);
   };
-
+  /*
+      <FormGoogle language={lang} />
+      <MapGoogle language={lang} />*/
   return (
     <div>
       <Hero language={lang} />
@@ -31,8 +34,7 @@ const App = () => {
       <TextOnly language={lang} />
       <Cards language={lang} />
       <Toast language={lang} />
-      <FormGoogle language={lang} />
-      <MapGoogle language={lang} />
+      <RsvpForm language={lang} />
       {lang == "en" ? "" : <Faq language={lang} />}
       <LanguageSwitsher
         language={lang}
