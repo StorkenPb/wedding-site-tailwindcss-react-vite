@@ -48,7 +48,8 @@ const ImageText = (props) => {
               <h1 className="text-5xl font-bold">{content.heading}</h1>
               <p className="">{content.paragraph_1}</p>
               <a
-                href="#kyrka-map"
+                href="https://maps.app.goo.gl/v9Zq2eEVW1NQpccRA"
+                target="_blank"
                 className="py-2 bg-primary w-[80px] text-white text-center font-medium tracking-wider rounded-lg drop-shadow-sm hover:underline "
               >
                 {content.buttonText}

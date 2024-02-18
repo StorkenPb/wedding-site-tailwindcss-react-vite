@@ -10,7 +10,6 @@ import FormGoogle from "./components/FormGoogle";
 import MapGoogle from "./components/MapGoogle";
 import Faq from "./components/Faq";
 import RsvpButton from "./components/RsvpButton";
-import RsvpForm from "./components/RsvpForm";
 
 const App = () => {
   var languages =
@@ -32,16 +31,15 @@ const App = () => {
       <ImageText language={lang} />
       <TextImage language={lang} />
       <TextOnly language={lang} />
+      <RsvpButton language={lang} />
       <Cards language={lang} />
       <Toast language={lang} />
-      <RsvpForm language={lang} />
       {lang == "en" ? "" : <Faq language={lang} />}
       <LanguageSwitsher
         language={lang}
         options={languages}
         handleChange={handleLanguageChange}
       />
-      <RsvpButton language={lang} />
     </div>
   );
 };

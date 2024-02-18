@@ -12,3 +12,7 @@ body {
   color: #392518;
   font-family: roboto, sans-serif;
 }
+
+.lock-scroll {
+  overflow: hidden;
+}

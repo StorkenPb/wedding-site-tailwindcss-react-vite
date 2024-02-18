@@ -20,7 +20,7 @@ const Toast = (props) => {
         <p className="text-2xl max-w-[390px]">{content.p}</p>
         <a
           href="mailto:julia.c.weingarten@gmail.com"
-          className="inline-flex justify-center gap-x-1.5 rounded-md py-2 px-4 bg-primary text-white font-medium tracking-wider drop-shadow-sm hover:underline "
+          className="inline-flex justify-center gap-x-1.5 rounded-md py-2 px-4 bg-primary text-white font-medium tracking-wider drop-shadow-sm focus:outline-none focus:ring-2 focus:ring-violet-400 hover:underline "
         >
           ✉️ julia.c.weingarten@gmail.com
         </a>
