@@ -10,7 +10,7 @@ const ImageText = (props) => {
         "Vigseln äger rum kl.15:00 i den gamla elvahundratalskyrkan på Ekerö.",
       subHeading: "Transport",
       paragraph_2:
-        "Vid Brommaplan utmed Drottningholmsvägen väntar bussar från Bromma buss, med avfärd till kyrkan kl.13:30. Be there or be square! Till Brommaplan tar ni er lättast med tunnelbana eller buss.",
+        "Vid Brommaplan utmed Drottningholmsvägen väntar bussar från Bromma buss, med avfärd till kyrkan kl. 14:00. Be there or be square! Till Brommaplan tar ni er lättast med tunnelbana eller buss.",
       buttonText: "Karta",
     },
     en: {
@@ -19,7 +19,7 @@ const ImageText = (props) => {
         "The ceremony will take at 3 pm in the beautiful old 11th century church on Ekerö.",
       subHeading: "Transportation",
       paragraph_2:
-        "Buses from Bromma Bus will be waiting at Brommaplan along Drottningholmsvägen. Departure time is 1:30pm. Be there or be square! The easiest way to get to Brommaplan is by metro or bus.",
+        "Buses from Bromma Bus will be waiting at Brommaplan along Drottningholmsvägen. Departure time is 2 pm. Be there or be square! The easiest way to get to Brommaplan is by metro or bus.",
       buttonText: "Map",
     },
   };
